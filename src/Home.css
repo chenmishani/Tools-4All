@@ -1,0 +1,79 @@
+.firstDiv {
+    background-color: white;
+    padding: 50px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.firstDivP {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.btnDiv {
+    width: 250px;
+    height: 180px;
+    padding: 20px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnDiv:hover {
+    border-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btnDiv p {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.btnDiv h2 {
+    font-size: 20px;
+    color: #0e456a;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.btnDiv img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.flexDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.marginDiv {
+    margin: 10px;
+}
+
+#rainbow {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgb(25, 150, 151);
+    background: linear-gradient(90deg, rgba(25, 150, 151, 1) 0%, rgba(101, 203, 109, 0.409) 100%, rgba(25, 150, 151, 1) 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}

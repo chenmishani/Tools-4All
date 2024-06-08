@@ -1,0 +1,14 @@
+/* src/Title.css */
+.title {
+    text-align: center;
+    margin-top: 2rem;
+    transition: font-size 2s ease-in-out;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}

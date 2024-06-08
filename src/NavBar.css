@@ -1,0 +1,21 @@
+.custom-navbar {
+    background: linear-gradient(rgb(173, 220, 242), rgb(179, 221, 241), rgb(187, 225, 242)) !important;
+    padding: 5px !important;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: black !important;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #4d4b4b !important;
+}
+
+.custom-container {
+    margin-left: 10px !important;
+}
+
+.scroll-link {
+cursor: pointer;
+}
