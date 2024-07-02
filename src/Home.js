@@ -62,8 +62,8 @@ const Home = () => {
                 </div>
             </div>
 
-            <div style={{ width: "80%", margin: "0 auto", marginBottom: "50px" }} id='video'>
-                <img src={video} alt="Preview GIF" style={{ width: "100%" }} />
+            <div style={{ width: "100%", display:"flex",justifyContent:"center" }} id='video'>
+                <img className='gif' src={video} alt="Preview GIF" />
             </div>
 
 
